@@ -1,0 +1,97 @@
+[
+  {
+    "index": 3,
+    "ticket": "Cho mình hỏi, mình đặt bình giữ nhiệt mã đơn VN804124. Chưa thấy tiền. Khi nào tiện. Cảm ơn shop nhiều.",
+    "ground_truth": "{\"intent\": \"hoan_tien\", \"urgency\": \"thap\", \"product\": \"bình giữ nhiệt\", \"sentiment\": \"tich_cuc\"}",
+    "prompt_pred": {
+      "intent": "hoan_tien",
+      "urgency": "thap",
+      "product": "bình giữ nhiệt",
+      "sentiment": "tich_cuc"
+    },
+    "ft_pred": {
+      "intent": "hoan_tien",
+      "urgency": "trung_binh",
+      "product": "bình giữ nhiệt",
+      "sentiment": "tich_cuc"
+    },
+    "ft_score": 0.75,
+    "win": false
+  },
+  {
+    "index": 12,
+    "ticket": "Shop ơi, mình đặt áo khoác gió mã đơn VN613097. Bị lỗi. Khi nào tiện. Cảm ơn shop nhiều.",
+    "ground_truth": "{\"intent\": \"san_pham_loi\", \"urgency\": \"thap\", \"product\": \"áo khoác gió\", \"sentiment\": \"tich_cuc\"}",
+    "prompt_pred": {
+      "intent": "san_pham_loi",
+      "urgency": "thap",
+      "product": "áo khoác gió",
+      "sentiment": "tich_cuc"
+    },
+    "ft_pred": {
+      "intent": "san_pham_loi",
+      "urgency": "trung_binh",
+      "product": "áo khoác gió",
+      "sentiment": "tich_cuc"
+    },
+    "ft_score": 0.75,
+    "win": false
+  },
+  {
+    "index": 39,
+    "ticket": "Chào shop, mình đặt nồi chiên không dầu mã đơn VN949966. Hoàn tiền. Khi nào tiện. Quá tệ.",
+    "ground_truth": "{\"intent\": \"hoan_tien\", \"urgency\": \"thap\", \"product\": \"nồi chiên không dầu\", \"sentiment\": \"tieu_cuc\"}",
+    "prompt_pred": {
+      "intent": "hoan_tien",
+      "urgency": "thap",
+      "product": "nồi chiên không dầu",
+      "sentiment": "tieu_cuc"
+    },
+    "ft_pred": {
+      "intent": "hoan_tien",
+      "urgency": "trung_binh",
+      "product": "nồi chiên không dầu",
+      "sentiment": "tieu_cuc"
+    },
+    "ft_score": 0.75,
+    "win": false
+  },
+  {
+    "index": 47,
+    "ticket": "Cho mình hỏi, mình đặt ốp lưng điện thoại mã đơn DH936478. Shipper không gọi. Hỏi cho biết thôi. Shop hỗ trợ tốt.",
+    "ground_truth": "{\"intent\": \"van_chuyen\", \"urgency\": \"thap\", \"product\": \"ốp lưng điện thoại\", \"sentiment\": \"tich_cuc\"}",
+    "prompt_pred": {
+      "intent": "hoi_thong_tin",
+      "urgency": "thap",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "tich_cuc"
+    },
+    "ft_pred": {
+      "intent": "van_chuyen",
+      "urgency": "thap",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "tich_cuc"
+    },
+    "ft_score": 1.0,
+    "win": true
+  },
+  {
+    "index": 48,
+    "ticket": "Alo shop, mình đặt ốp lưng điện thoại mã đơn DH734695. Giá bao nhiêu. Mong shop phản hồi. Nhờ shop kiểm tra.",
+    "ground_truth": "{\"intent\": \"hoi_thong_tin\", \"urgency\": \"trung_binh\", \"product\": \"ốp lưng điện thoại\", \"sentiment\": \"trung_tinh\"}",
+    "prompt_pred": {
+      "intent": "hoi_thong_tin",
+      "urgency": "cao",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "trung_tinh"
+    },
+    "ft_pred": {
+      "intent": "hoi_thong_tin",
+      "urgency": "trung_binh",
+      "product": "ốp lưng điện thoại",
+      "sentiment": "trung_tinh"
+    },
+    "ft_score": 1.0,
+    "win": true
+  }
+]
